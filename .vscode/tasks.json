@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "All",
+      "type": "shell",
+      "command": "${workspaceFolder}/.venv/bin/python src/ingest.py && ${workspaceFolder}/.venv/bin/python src/build_views.py && ${workspaceFolder}/.venv/bin/python src/compute_metrics.py && ${workspaceFolder}/.venv/bin/python src/visualize.py",
+      "problemMatcher": []
+    },
+    { "label":"01 Ingest", "type":"shell", "command":"${workspaceFolder}/.venv/bin/python src/ingest.py" },
+    { "label":"02 Build Views", "type":"shell", "command":"${workspaceFolder}/.venv/bin/python src/build_views.py" },
+    { "label":"03 Compute Metrics", "type":"shell", "command":"${workspaceFolder}/.venv/bin/python src/compute_metrics.py" },
+    { "label":"04 Visualize", "type":"shell", "command":"${workspaceFolder}/.venv/bin/python src/visualize.py" }
+  ]
+}

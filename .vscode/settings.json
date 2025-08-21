@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "DuckDB",
+            "name": "airlinecasestudy",
+            "database": "${workspaceFolder:airline-case-study}/warehouse"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
