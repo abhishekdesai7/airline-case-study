@@ -1,0 +1,5 @@
+duckdb_path: "warehouse/condor.duckdb"
+costs:
+  variable_cost_per_seat_leg: 25        # € per seat-leg (placeholder)
+uplifts:
+  connection_value_pct_of_ticket_rev: 0.15   # 15% of ticket revenue as network value proxy
