@@ -1,0 +1,1 @@
+bookingid_(pnr),reservation_date,cancellation_date,flight_date,origin,destination,routing,flightnumber,revenue_per_booking_(ticket),revenue_per_booking_(ancilliary_pre_check_in),revenue_per_booking_(ancilliary_at_check_in),passengercount,bookingid_norm,routing_canonical

@@ -1,0 +1,16 @@
+check,count
+same_booking_multiple_channels,15438
+same_booking_multiple_devices,15025
+cancellation_with_positive_pax,863
+canceled_with_checkin_ancillary,616
+cancellation_before_reservation,0
+reservation_after_flight,0
+revenue_with_zero_passengers,0
+negative_revenue_fields,0
+negative_passengers,0
+pax_exceeds_capacity,0
+missing_capacity_for_leg,0
+capacity_out_of_range,0
+routing_inconsistent_with_od,0
+duplicate_legs_within_pnr,0
+missing_flight_date,0
