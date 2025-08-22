@@ -7,9 +7,7 @@ SELECT origin, destination,
        SUM(pax)*1.0 / NULLIF(SUM(seats),0) AS fwlf
 FROM mart.leg GROUP BY 1,2;
 
--- 2) PACS (parameterized via SETs)
--- Defaults; you can override at runtime from Python or DuckDB CLI
--- PACS with inline params (change numbers as needed or feed from Python)
+-- 2) PACS
 CREATE OR REPLACE VIEW kpi.pacs_leg AS
 WITH p AS (
   SELECT 
